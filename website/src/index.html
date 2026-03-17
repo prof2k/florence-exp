@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florence</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 640px;
+      margin: 80px auto;
+      padding: 0 24px;
+      color: #111;
+    }
+    [data-flo-id] {
+      cursor: text;
+      border-radius: 3px;
+      transition: background 0.1s;
+    }
+    [data-flo-id]:focus {
+      background: #f5f5f5;
+    }
+    h1 { font-size: 2rem; margin-bottom: 0.25em; }
+    p  { line-height: 1.6; color: #444; }
+  </style>
+</head>
+<body>
+
+  <h1 data-flo-id="title">The HTML is the CMS!</h1>
+  <p data-flo-id="intro">Testing<br><br><b>jldfajflad</b><br><br>Wow. What's going on righ here?<br></p>
+
+  <script>
+    window.__FLO__ = { file: 'index.html', patcher: 'http://localhost:3001' };
+  </script>
+  <script src="./flo.js"></script>
+</body>
+</html>

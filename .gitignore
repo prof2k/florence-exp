@@ -1,0 +1,5 @@
+# Rust
+server/target/
+
+# macOS
+.DS_Store
