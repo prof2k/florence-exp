@@ -4,6 +4,8 @@
 
 Bidirectional editing for HTML. Edit the rendered output of a webpage and the source file updates in real time.
 
+![Florence demo](demo.gif)
+
 No CMS. No build step. No framework. Just HTML.
 
 ---
